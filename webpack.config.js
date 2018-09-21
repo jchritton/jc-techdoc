@@ -4,6 +4,9 @@ module.exports = {
       path: __dirname + '/public',
       filename: 'bundle.js'
     },
+    resolve: {
+      extensions: [".js", ".json", ".ts", ".tsx"],
+    },
     module: {
       rules: [
         { test: /\.(ts|tsx)$/, loader: 'awesome-typescript-loader' }
