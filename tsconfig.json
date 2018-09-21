@@ -1,0 +1,15 @@
+{ 
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es5", "es6", "es7", "dom"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "jsx": "react",
+        "strict": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "jc-techdoc",
+  "author": {
+    "name": "John Chritton",
+    "email": "jchritton33@gmail.com",
+    "url": "https://github.com/jchritton"
+  },
+  "version": "0.0.1",
+  "description": "Speak My Language - A reference to do the same things in different places!",
+  "private": true,
+  "homepage": "https://github.com/jchritton/jc-techdoc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchritton/jc-techdoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jchritton/jc-techdoc/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests installed\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "build:dev": "webpack --config webpack.config.js --mode=development",
+    "watch": "webpack --config webpack.config.js --mode=development --watch",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.10.1",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "node",
+    "express",
+    "react",
+    "bootstrap",
+    "webpack"
+  ]
+}
