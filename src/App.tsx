@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Navigation from './components/Navigation';
+
 const initialState = {};
 type State = Readonly<typeof initialState>;
 
@@ -8,7 +10,7 @@ export default class App extends React.PureComponent <object, State> {
   render() {
       return (
           <div>
-              <h1>Speak My Language</h1>
+              <Navigation />
           </div>);
   }
 }
